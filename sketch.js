@@ -15,8 +15,8 @@ function draw() {
   stroke(color, 100, 100);
   // stroke(255, 100, 100);
 
-  if (random(1) < 0.5) {
-    line(x, y, x + spacing, y + spacing);
+  if (random(1) < 0.4) {
+    line(x, y, x, y + spacing);
   } else {
     line(x, y + spacing, x + spacing, y);
   }
